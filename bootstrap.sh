@@ -42,3 +42,23 @@ brew cask install firefox
 # ==============================================================================
 
 apm install sync-settings
+
+# ==============================================================================
+# SET UP MACOS
+# ==============================================================================
+
+# Height of the dock
+defaults write com.apple.dock tilesize -int 50
+killall -KILL Dock
+
+# Disable save to iCloud
+defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
+
+#Show hidden files
+defaults write com.apple.Finder AppleShowAllFiles -bool true
+
+# Search in the current folder by default
+defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
+
+# Change a file extension without the warning
+defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
