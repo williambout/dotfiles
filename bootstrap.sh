@@ -62,3 +62,9 @@ defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
 
 # Change a file extension without the warning
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+
+# Hide desktop icons
+defaults write com.apple.finder CreateDesktop false; killall Finder
+
+#Automaticaly move screenshots to ~/Desktop/Screenshots/
+defaults write com.apple.screencapture location ~/Desktop/Screenshots/
