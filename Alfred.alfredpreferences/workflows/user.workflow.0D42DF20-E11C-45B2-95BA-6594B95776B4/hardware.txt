@@ -1,0 +1,18 @@
+Hardware:
+
+    Hardware Overview:
+
+      Model Name: MacBook Pro
+      Model Identifier: MacBookPro11,1
+      Processor Name: Intel Core i5
+      Processor Speed: 2,4 GHz
+      Number of Processors: 1
+      Total Number of Cores: 2
+      L2 Cache (per Core): 256 KB
+      L3 Cache: 3 MB
+      Memory: 8 GB
+      Boot ROM Version: MBP111.0138.B17
+      SMC Version (system): 2.16f68
+      Serial Number (system): C02LN2P1FH00
+      Hardware UUID: 3C270A29-25D4-56D8-8D97-A5A0880CB1AA
+

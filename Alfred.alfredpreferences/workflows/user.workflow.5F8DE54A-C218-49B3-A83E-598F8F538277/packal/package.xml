@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<workflow>
+  <name>Display Brightness</name>
+  <version>1.1</version>
+  <bundle>com.fniephaus.brightness</bundle>
+  <updated>1432036694</updated>
+  <file>display-brightness.alfredworkflow</file>
+</workflow>

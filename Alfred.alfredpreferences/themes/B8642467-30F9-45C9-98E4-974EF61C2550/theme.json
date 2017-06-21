@@ -1,0 +1,61 @@
+{
+  "alfredtheme" : {
+    "result" : {
+      "textSpacing" : 4,
+      "subtext" : {
+        "size" : 11,
+        "colorSelected" : "#BABABAFF",
+        "font" : "System",
+        "color" : "#7F7F7FFF"
+      },
+      "shortcut" : {
+        "size" : 16,
+        "colorSelected" : "#7F7F7FFF",
+        "font" : "System",
+        "color" : "#4C4C4CFF"
+      },
+      "backgroundSelected" : "#FEFFFF19",
+      "text" : {
+        "size" : 16,
+        "colorSelected" : "#FEFFFFFF",
+        "font" : "System",
+        "color" : "#D5D5D5FF"
+      },
+      "iconPaddingHorizontal" : 10,
+      "paddingVertical" : 4,
+      "iconSize" : 40
+    },
+    "search" : {
+      "paddingVertical" : 5,
+      "background" : "#00000000",
+      "spacing" : 10,
+      "text" : {
+        "size" : 32,
+        "colorSelected" : "#000000FF",
+        "font" : "System",
+        "color" : "#FFFFFFFF"
+      },
+      "backgroundSelected" : "#B2D7FFFF"
+    },
+    "window" : {
+      "color" : "#00000099",
+      "paddingHorizontal" : 0,
+      "width" : 600,
+      "borderPadding" : 10,
+      "borderColor" : "#00000000",
+      "blur" : 20,
+      "roundness" : 3,
+      "paddingVertical" : 0
+    },
+    "credit" : "Reda Lemeden",
+    "separator" : {
+      "color" : "#00000000",
+      "thickness" : 1
+    },
+    "scrollbar" : {
+      "color" : "#262626FF",
+      "thickness" : 2
+    },
+    "name" : "El Capitan Dark"
+  }
+}
