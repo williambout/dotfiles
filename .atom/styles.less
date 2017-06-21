@@ -1,0 +1,39 @@
+/*
+ * Your Stylesheet
+ *
+ * This stylesheet is loaded when Atom starts up and is reloaded automatically
+ * when it is changed.
+ *
+ * If you are unfamiliar with LESS, you can read more about it here:
+ * http://www.lesscss.org
+ */
+.atom-text-editor {
+  .wrap-guide {
+    visibility: hidden;
+  }
+
+  .cursor {
+    transition: opacity 0.1s ease;
+    border: none;
+    position: relative;
+
+    &:after {
+      transition: opacity 0.08s ease;
+      border: none;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 2px;
+      height: 19px;
+      background: #528bff;
+    }
+  }
+}
+
+atom-text-editor::shadow pigments-markers::shadow pigments-color-marker.dot,
+pigments-markers::shadow pigments-color-marker.dot,
+pigments-color-marker.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+}
