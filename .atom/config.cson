@@ -56,7 +56,7 @@
   "css-comb":
     config: "custom"
   editor:
-    fontFamily: "SFMono-Regular"
+    fontFamily: "SF Mono"
     fontSize: 12
     showIndentGuide: true
   "exception-reporting":
@@ -116,9 +116,9 @@
     enabledForAllJavascriptFiles: true
   "sync-settings":
     _analyticsUserId: "d9c595cf-9cac-4982-975d-32fcc8b4256d"
-    _lastBackupHash: "f81c0ffd23505cb3ee64d813f997d15fbd115b1a"
+    _lastBackupHash: "0b26dcc640902232db35f20cd2e7385da5689ad2"
     gistId: "a338a2182cd26ca3b8ef6564954d6da3"
-    personalAccessToken: "187f0a17fee83a5b82dd7da606ddba8ef5575ea6"
+    personalAccessToken: "94baa7f58a73e36df3cdae81b92ae58172dbb8da"
     quietUpdateCheck: true
   "travis-ci-status":
     personalAccessToken: "ee145b2ecd48de9445797684982ff9e372d8a7c8"
