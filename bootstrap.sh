@@ -35,3 +35,16 @@ header "Tweaking macOS"
 
 # Enable Time Machine
 sudo tmutil enable
+
+# Hide everything on the Desktop
+defaults write com.apple.finder CreateDesktop -bool false && killall Finder
+
+# Save screenshots to the Screenshots folder
+mkdir ~/Desktop/Screenshots
+defaults write com.apple.screencapture location ~/Desktop/Screenshots
+
+# ==============================================================================
+# ATOM TWEAKS
+# ==============================================================================
+
+apm install sync-settings

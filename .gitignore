@@ -3,3 +3,5 @@
 /.atom/packages/
 /.atom/storage/
 .atom/projects.cson
+
+.DS_Store
