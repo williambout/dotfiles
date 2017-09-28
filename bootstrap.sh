@@ -24,9 +24,6 @@ ensure_symlink ~/dotfiles/gitignore ~/.gitignore
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew bundle
 
-# Oh My Zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
 # ==============================================================================
 # MACOS TWEAKS
 # ==============================================================================
@@ -48,3 +45,8 @@ defaults write com.apple.screencapture location ~/Desktop/Screenshots
 # ==============================================================================
 
 apm install sync-settings
+
+# ==============================================================================
+# NPM GLOBAL PACKAGES
+# ==============================================================================
+npm i -g react-native-cli react-native-git-upgrade
