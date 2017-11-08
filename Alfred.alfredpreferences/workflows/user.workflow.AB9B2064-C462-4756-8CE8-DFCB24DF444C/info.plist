@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.junecloud.Deliveries.Alfred.Add</string>
+	<key>connections</key>
+	<dict>
+		<key>C48467DD-85A7-45B8-99C8-B315519FF1C1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>22AFBA6C-DB2C-4036-8CD1-7B82AB623B06</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Junecloud LLC</string>
+	<key>description</key>
+	<string>Adds a new delivery, starting with any text you include</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Add to Deliveries</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>deliveries://add/{query}</string>
+				<key>utf8</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>22AFBA6C-DB2C-4036-8CD1-7B82AB623B06</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>keyword</key>
+				<string>track</string>
+				<key>subtext</key>
+				<string>Add a new delivery with the text {query}</string>
+				<key>text</key>
+				<string>Add to Deliveries</string>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>C48467DD-85A7-45B8-99C8-B315519FF1C1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>This workflow requires Deliveries for Mac, available on the Mac App Store. http://deliveriesapp.com</string>
+	<key>uidata</key>
+	<dict>
+		<key>22AFBA6C-DB2C-4036-8CD1-7B82AB623B06</key>
+		<dict>
+			<key>xpos</key>
+			<integer>270</integer>
+			<key>ypos</key>
+			<integer>60</integer>
+		</dict>
+		<key>C48467DD-85A7-45B8-99C8-B315519FF1C1</key>
+		<dict>
+			<key>xpos</key>
+			<integer>80</integer>
+			<key>ypos</key>
+			<integer>60</integer>
+		</dict>
+	</dict>
+	<key>version</key>
+	<string>1.1</string>
+	<key>webaddress</key>
+	<string>http://deliveriesapp.com</string>
+</dict>
+</plist>

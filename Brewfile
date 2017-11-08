@@ -29,3 +29,5 @@ mas "Reeder", id: 880001334
 mas "Things3", id: 904280696
 mas "Tweetbot", id: 557168941
 mas "Xcode", id: 497799835
+mas "1Blocker", id: 1107421413
+mas "Pixel Winch", id: 735066709
