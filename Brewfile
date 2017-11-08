@@ -13,10 +13,10 @@ cask "istat-menus"
 cask "sip"
 cask "front"
 cask "slack"
-cask "iterm2"
 cask "rescuetime"
 cask "alfred"
 cask "bartender"
+cask "github"
 mas "Calcbot", id: 931657367
 mas "Contrast", id: 1254981365
 mas "DaisyDisk", id: 411643860
